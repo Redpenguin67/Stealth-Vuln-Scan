@@ -19,15 +19,6 @@ Scanner di vulnerabilità stealth con GUI e CLI, integrazione AI Gemini, rilevam
 
 ---
 
-## ✨ Novità v3.1
-
-- 🤖 **Integrazione AI Gemini** - Analisi avanzata con Google Gemini AI
-- 💀 **3 Attacchi Distruttivi** - RCE, Ransomware, compromissione totale
-- 🎯 **5 Attacchi Probabili** - Backdoor, persistenza, credential harvesting
-- 📁 **File config.ini** - Configurazione API key e modello Gemini
-- ⏱️ **Tempo di exploit** - Stima del tempo necessario per ogni attacco
-
----
 
 ## 📋 Caratteristiche
 
@@ -74,7 +65,7 @@ model = gemini-2.0-flash-exp
 
 ---
 
-## 🚀 Installazione
+## 🚀 Utilizzo
 
 \`\`\`bash
 python3 -m venv venv
@@ -84,10 +75,15 @@ python3 stealth_scanner_gui.py
 \`\`\`
 
 ---
+** E' possibile utilizzare anche la versione CLI:  python3 stealth_scanner_cli.py **
+
+
 
 ## 👨‍💻 Autore
 
 **Red-Penguin**
+**Redpenguin67@protonmail.com**
+
 
 ## ⚠️ Disclaimer
 
