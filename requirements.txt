@@ -1,0 +1,40 @@
+# ============================================================
+# STEALTH VULNERABILITY SCANNER v3.2
+# Red-Penguin
+# ============================================================
+# 
+# Installazione:
+#   python3 -m venv venv
+#   source venv/bin/activate  (Linux/Mac)
+#   venv\Scripts\activate     (Windows)
+#   pip install -r requirements.txt
+#
+# Avvio Scanner GUI:
+#   python3 stealth_scanner_gui.py
+#
+# Avvio Scanner CLI:
+#   python3 stealth_scanner_cli.py target --all
+#
+# Avvio JSON Viewer:
+#   python3 json_viewer.py
+#
+# Report salvati in: ./Analisi/
+# ============================================================
+
+# GUI Framework (solo per GUI)
+customtkinter>=5.2.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# SOCKS Proxy Support (per verifica TOR exit node)
+pysocks>=1.7.1
+
+# Rich console output (opzionale, per CLI colorata)
+rich>=13.0.0
+
+# Urllib3 (dipendenza di requests)
+urllib3>=2.0.0
+
+# Certificati SSL
+certifi>=2023.0.0
